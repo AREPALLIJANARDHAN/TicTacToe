@@ -93,6 +93,7 @@ public class TicTacToe {
                 }
             else if(checkForDraw()){
                 System.out.println("its a draw ");
+                break;
             }
             else {
                 switchPlayer();
